@@ -1,0 +1,81 @@
+.shopdiv1{
+  margin-bottom: 50px;
+}
+.shoph1{
+  padding: 20px;
+}
+.shopcard{
+  height: 350px;
+  margin: 0 -13px;
+  text-decoration: none;
+  color: #000;
+
+}
+.shopdiv{
+  overflow: hidden;
+}
+.shopimg{
+  height: 250px;
+  transition-duration: 0.5s;
+  padding: 20px;
+}
+.shopimg:hover{
+  transform: scale(1.2);
+   transition: 0.5s;
+}
+
+.largecard{
+  width: 80%;
+  border-radius: 20px !important;
+  margin-top: 1%;
+}
+.largdiv{
+  display: flex;
+}
+@media only screen and (max-width: 600px) {
+  .largdiv{
+    display: block;
+  }
+}
+.largdiv1{
+  width: 15%;
+  height: 40px;
+}
+.largdiv2{
+  display: flex;
+  justify-content: start;
+}
+.largdiv3{
+  width: 23%;
+  height: 40px;
+  margin: 10px 0 10px 0;
+  border-radius: 20px;
+  border: none;
+  background-color: #751FFF;
+  color: #fff;
+  transition-duration: 1s;
+}
+.largdiv3:hover{
+  background-color: #000;
+  transition: 1s;
+}
+.like{
+  width: 50px;
+  height: 50px;
+  border: none;
+  font-size: 30px;
+}
+.largdiv4{
+  width: 30%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 50px;
+  background-color: #000;
+  color: #fff;
+  transition-duration: 1s;
+}
+.largdiv4:hover{
+  background-color: red;
+  transition: 1s;
+}
