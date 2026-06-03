@@ -1,11 +1,10 @@
-import React from 'react'
 import {Image} from 'react-bootstrap'
 export default function Slider_() {
   return (
     <div>
       <div id="cf">
         <Image class="bottom" src="https://static.wixstatic.com/media/c837a6_f58829a26e594ca3aa72383e19cf39b9~mv2.png/v1/fill/w_1349,h_508,al_r,q_90,usm_0.66_1.00_0.01,enc_auto/c837a6_f58829a26e594ca3aa72383e19cf39b9~mv2.png" />
-        <img class="top" src="https://static.wixstatic.com/media/c837a6_9c1280daaeb0481abc58e6e236efdf59~mv2.png/v1/fill/w_1349,h_508,al_br,q_90,usm_0.66_1.00_0.01,enc_auto/c837a6_9c1280daaeb0481abc58e6e236efdf59~mv2.png" />
+        <img class="top" src="https://static.wixstatic.com/media/c837a6_9c1280daaeb0481abc58e6e236efdf59~mv2.png/v1/fill/w_1349,h_508,al_br,q_90,usm_0.66_1.00_0.01,enc_auto/c837a6_9c1280daaeb0481abc58e6e236efdf59~mv2.png" alt=''/>
         <div class='slidiv'>
         <h4>Лучшие цены</h4>
         <h1>Невероятные цены на все ваши любимые товары</h1>

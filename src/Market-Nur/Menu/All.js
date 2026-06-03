@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Col, Row } from 'react-bootstrap'
-import {useParams} from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import ShopAll from './ShopAll'
 
 export default function All(props) {
-  const[add,setAdd]=useState([])
-  let{id}=useParams()
+  const [add] = useState([])
+  const { id } = useParams()
   // useEffect(()=>{
 
   // })
@@ -13,7 +13,7 @@ export default function All(props) {
     <div>
       <Row>
         <Col>
-          <ShopAll name={add}/>
+          <ShopAll name={add} />
         </Col>
       </Row>
 
